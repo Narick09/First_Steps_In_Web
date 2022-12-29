@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css" type="text/css"/>
+    <title>Document</title>
+</head>
+<script src = "/socket.io/socket.io.js"></script>
+<body>
+    <div class="flex-chat">
+        <div class="chat-form">
+            <div class = "box">
+                <div class = "topic-name-input">
+                    Enter name:
+                </div>
+                <input class="name-input" type="text">
+                <div class = "but">
+                    <div class = "topic-message-input">
+                        Enter message
+                    </div>
+                    <input class="message-input" type="text">
+                    
+                </div>
+                <button class = "but-send">
+                    Отправить
+                </button>
+            </div> 
+        </div>
+        <div class="chat">
+
+        </div>
+        <ol class = "users-list">
+            <div>Список участников</div>
+        </ol>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
